@@ -1,0 +1,10 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+devpi use http://$DEVPI_HOST:$DEVPI_PORT > /dev/null 2>&1
+devpi login root --password=$(cat "$DEVPI_SERVERDIR/.root_password")
+
+if [ "${1:-}" == "bash" ]; then
+    exec "$@"
+fi
+exec devpi "$@"

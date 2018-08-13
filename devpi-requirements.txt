@@ -1,0 +1,13 @@
+# Main server and web views
+devpi-server==4.6.0
+devpi-web==3.3.0
+devpi-client==4.0.3
+
+# Web skin
+devpi-semantic-ui==0.2.2
+
+# Web extensions
+devpi-findlinks==2.0.0
+
+# Tools
+devpi-cleaner==0.2.0

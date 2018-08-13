@@ -1,0 +1,11 @@
+version: '2.0'
+
+services:
+  devpi:
+    build: .
+    image: devpi:latest
+    container_name: devpi
+    ports:
+      - 3141:3141
+    volumes:
+      - /srv/devpi:/data
