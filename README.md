@@ -48,8 +48,8 @@ index-servers =
     local
 
 [local]
-repository= http://localhost:3141/local/dev
-username= username
+repository= http://localhost:3141/user/index
+username= user
 password= secret
 ```
 
@@ -60,7 +60,7 @@ $ python setup.py register -r local
 $ python sdist upload -r local
 ```
 
-*This example assume a user `test` and an index `dev` were previously created using the devpi client command*
+*This example assume a user `user` and an index `index` were previously created using the devpi client command*
 
 
 ## Persistence
