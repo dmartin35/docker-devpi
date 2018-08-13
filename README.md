@@ -3,7 +3,7 @@
 A Docker image based on [Alpine](https://hub.docker.com/_/alpine/) that runs
 a [devpi](http://doc.devpi.net) server (*Local PyPI repo & official PyPI Cache*) with a frontend (devpi-web).
 
-> This image uses Alapine as base to be as lite as possible.
+> This image uses Alpine as base to be as lite as possible.
 
 ## Usage
 
